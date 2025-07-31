@@ -102,3 +102,85 @@ section{
 .b7{
     background-image: url(petra.jpg);
 }
+
+@media (max-width: 1024px) {
+  .head {
+    font-size: 5rem;
+    top: 3rem;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 3rem;
+    padding: 0 5rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+  }
+
+  .desc {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 3.5rem;
+    top: 2rem;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+  }
+
+  .text {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    margin: 3rem 0;
+  }
+
+  .desc {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .b {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .head {
+    font-size: 2.5rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .b {
+    height: 200px;
+  }
+}
+
